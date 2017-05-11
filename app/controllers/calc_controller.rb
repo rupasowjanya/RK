@@ -6,6 +6,8 @@ class CalcController < ApplicationController
   end
 
   def sub
+
+  	puts "krishna"
   end
 
   def div
