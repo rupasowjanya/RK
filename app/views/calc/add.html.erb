@@ -1,0 +1,17 @@
+<h1>Jai Sri Krishna - Add</h1>
+
+
+<% puts @c %>
+addition is : <%= @c %>
+
+
+<% form_tag do %>
+<p><% label_tag 'Enter A Value' %>
+<% text_field_tag 'a'%>
+<p><% label_tag 'Enter A Value' %>
+<% text_field_tag'b' %></p>p>
+<%= submit_tag 'addition' %>
+
+
+
+<% end %>
